@@ -245,6 +245,24 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 53557fab08c9bcc46bbf36a95bfba3de, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9908b3b945620c345acf19c34e7e74b0, type: 3}
+--- !u!1 &14982704 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 282446623}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &14982705
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14982704}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671281, z: 0.0028927242}
+  m_Center: {x: 0.00000011792872, y: 0.0023642885, z: 0.00000008731149}
 --- !u!1001 &26043436
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -255,6 +273,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302 (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
@@ -349,7 +371,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 20, y: -10}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 230, y: 50}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &37380589
 MonoBehaviour:
@@ -371,7 +393,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Skor :'
+  m_text: 'Skor : 0'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -557,6 +579,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Briks_302 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -615,6 +641,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+--- !u!1 &84439099 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 2137200462}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &84439100
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84439099}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671282, z: 0.002892725}
+  m_Center: {x: 0.00000011792872, y: 0.002364289, z: 0.00000008731151}
 --- !u!4 &85227198 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
@@ -630,6 +674,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
@@ -689,6 +737,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+--- !u!1 &98855700 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 786724333}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &98855701
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98855700}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671282, z: 0.002892725}
+  m_Center: {x: 0.00000011792872, y: 0.002364289, z: 0.00000008731151}
 --- !u!1001 &103757694
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -699,6 +765,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
@@ -774,6 +844,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Briks_302 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -837,6 +911,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
   m_PrefabInstance: {fileID: 2024205120}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &126188074 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000013678658166, guid: 8fa35cdad352cfa4297d3be64705ecf1, type: 3}
+  m_PrefabInstance: {fileID: 1556954547}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &126188075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126188074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c71921b145e48d546a389c4b89a15920, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yazi_txt: {fileID: 201997557}
+  skor_txt: {fileID: 37380589}
 --- !u!1001 &133239588
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -847,6 +940,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302 (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
@@ -906,6 +1003,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+--- !u!1 &155896411 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 608454729}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &155896412
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155896411}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671281, z: 0.0028927242}
+  m_Center: {x: 0.00000011792872, y: 0.0023642885, z: 0.00000008731149}
 --- !u!4 &159756724 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
@@ -921,6 +1036,60 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9908b3b945620c345acf19c34e7e74b0, type: 3}
   m_PrefabInstance: {fileID: 1263065259}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &196208899 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 531231212}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &196208900
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196208899}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671281, z: 0.0028927242}
+  m_Center: {x: 0.00000011792872, y: 0.0023642885, z: 0.00000008731149}
+--- !u!1 &198569148 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 1162447781}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &198569149
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198569148}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671282, z: 0.002892725}
+  m_Center: {x: 0.00000011792872, y: 0.002364289, z: 0.00000008731151}
+--- !u!1 &199392135 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 582123971}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &199392136
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199392135}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671282, z: 0.002892725}
+  m_Center: {x: 0.00000011792872, y: 0.002364289, z: 0.00000008731151}
 --- !u!1 &201997555
 GameObject:
   m_ObjectHideFlags: 0
@@ -1132,6 +1301,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Briks_302 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -1271,6 +1444,24 @@ Transform:
   m_Father: {fileID: 2052452465}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &226205078 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 1480284271}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &226205079
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226205078}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671282, z: 0.002892725}
+  m_Center: {x: 0.00000011792872, y: 0.002364289, z: 0.00000008731151}
 --- !u!4 &238634437 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9908b3b945620c345acf19c34e7e74b0, type: 3}
@@ -1286,6 +1477,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
@@ -1356,6 +1551,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Briks_302 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -1419,6 +1618,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
   m_PrefabInstance: {fileID: 216627193}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &283566021 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 1621267202}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &283566022
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283566021}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671282, z: 0.002892725}
+  m_Center: {x: 0.00000011792872, y: 0.002364289, z: 0.00000008731151}
 --- !u!1001 &288662381
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1429,6 +1646,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
@@ -1554,6 +1775,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
   m_PrefabInstance: {fileID: 1480284271}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &298621948 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 1265380634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &298621949
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298621948}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671281, z: 0.0028927242}
+  m_Center: {x: 0.00000011792872, y: 0.0023642885, z: 0.00000008731149}
 --- !u!4 &327072367 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
@@ -1569,6 +1808,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302 (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
@@ -1639,6 +1882,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Briks_302 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -1697,11 +1944,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+--- !u!1 &343188946 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 1959373989}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &343188947
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343188946}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671281, z: 0.0028927242}
+  m_Center: {x: 0.00000011792872, y: 0.0023642885, z: 0.00000008731149}
 --- !u!4 &354748797 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 425134, guid: 680093e3c7f2e8c41865a70ce9d96efd, type: 3}
   m_PrefabInstance: {fileID: 515107238}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &372093758 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 329246372}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &372093759
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372093758}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671282, z: 0.002892725}
+  m_Center: {x: 0.00000011792872, y: 0.002364289, z: 0.00000008731151}
 --- !u!1001 &374172333
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1773,6 +2056,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
@@ -1858,6 +2145,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Briks_302 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -1932,6 +2223,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Briks_302 (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
       value: 41
@@ -1995,6 +2290,42 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9908b3b945620c345acf19c34e7e74b0, type: 3}
   m_PrefabInstance: {fileID: 1504407417}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &501385315 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 419579711}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &501385316
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501385315}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671281, z: 0.0028927242}
+  m_Center: {x: 0.00000011792872, y: 0.0023642885, z: 0.00000008731149}
+--- !u!1 &501388855 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 528911737}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &501388856
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501388855}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671282, z: 0.002892725}
+  m_Center: {x: 0.00000011792872, y: 0.002364289, z: 0.00000008731151}
 --- !u!1001 &515107238
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2060,101 +2391,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 680093e3c7f2e8c41865a70ce9d96efd, type: 3}
---- !u!1 &521694707
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 521694708}
-  - component: {fileID: 521694711}
-  - component: {fileID: 521694710}
-  - component: {fileID: 521694709}
-  m_Layer: 0
-  m_Name: Cube
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &521694708
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 521694707}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.008096695, y: -0.00333334, z: 0.6633333}
-  m_LocalScale: {x: 0.6666667, y: 0.6666667, z: 0.6666667}
-  m_Children: []
-  m_Father: {fileID: 1016852827}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &521694709
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 521694707}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &521694710
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 521694707}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &521694711
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 521694707}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &528911737
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2165,6 +2401,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
@@ -2235,6 +2475,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Briks_302 (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -2298,6 +2542,42 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
   m_PrefabInstance: {fileID: 1959373989}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &543302261 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 103757694}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &543302262
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543302261}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671281, z: 0.0028927242}
+  m_Center: {x: 0.00000011792872, y: 0.0023642885, z: 0.00000008731149}
+--- !u!1 &545484783 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 2024205120}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &545484784
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 545484783}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671281, z: 0.0028927242}
+  m_Center: {x: 0.00000011792872, y: 0.0023642885, z: 0.00000008731149}
 --- !u!4 &550948250 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
@@ -2318,6 +2598,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302 (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
@@ -2388,6 +2672,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Briks_302 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -2446,6 +2734,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+--- !u!1 &600925286 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 1269143408}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &600925287
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600925286}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671282, z: 0.002892725}
+  m_Center: {x: 0.00000011792872, y: 0.002364289, z: 0.00000008731151}
 --- !u!1001 &601660830
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2518,6 +2824,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Briks_302 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -2576,6 +2886,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+--- !u!1 &620150671 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 1359020182}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &620150672
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620150671}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671281, z: 0.0028927242}
+  m_Center: {x: 0.00000011792872, y: 0.0023642885, z: 0.00000008731149}
 --- !u!4 &624193874 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
@@ -2591,6 +2919,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
@@ -2650,6 +2982,119 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+--- !u!1 &634603290 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 117887520}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &634603291
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634603290}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671281, z: 0.0028927242}
+  m_Center: {x: 0.00000011792872, y: 0.0023642885, z: 0.00000008731149}
+--- !u!1 &637266652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 637266653}
+  - component: {fileID: 637266656}
+  - component: {fileID: 637266655}
+  - component: {fileID: 637266654}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &637266653
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637266652}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.04333337, y: 0.086666666, z: 0.835}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.3}
+  m_Children: []
+  m_Father: {fileID: 1016852827}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &637266654
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637266652}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &637266655
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637266652}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &637266656
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637266652}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &645060383
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2660,6 +3105,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
@@ -2724,11 +3173,47 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9908b3b945620c345acf19c34e7e74b0, type: 3}
   m_PrefabInstance: {fileID: 775750223}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &693060040 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 597036461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &693060041
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 693060040}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671281, z: 0.0028927242}
+  m_Center: {x: 0.00000011792872, y: 0.0023642885, z: 0.00000008731149}
 --- !u!4 &698641111 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9908b3b945620c345acf19c34e7e74b0, type: 3}
   m_PrefabInstance: {fileID: 1679629478}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &702152035 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 332090558}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &702152036
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702152035}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671282, z: 0.002892725}
+  m_Center: {x: 0.00000011792872, y: 0.002364289, z: 0.00000008731151}
 --- !u!4 &705875395 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
@@ -2739,6 +3224,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
   m_PrefabInstance: {fileID: 288662381}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &735971641 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 1537892309}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &735971642
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735971641}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671281, z: 0.0028927242}
+  m_Center: {x: 0.00000011792872, y: 0.0023642885, z: 0.00000008731149}
 --- !u!1001 &740737951
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2749,6 +3252,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302 (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
@@ -2808,6 +3315,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+--- !u!1 &758246371 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 270248419}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &758246372
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758246371}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671282, z: 0.002892725}
+  m_Center: {x: 0.00000011792872, y: 0.002364289, z: 0.00000008731151}
 --- !u!1 &758923358
 GameObject:
   m_ObjectHideFlags: 0
@@ -2888,6 +3413,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000011667685464, guid: 8fa35cdad352cfa4297d3be64705ecf1, type: 3}
   m_PrefabInstance: {fileID: 1556954547}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &765143434 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 982736125}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &765143435
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765143434}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671282, z: 0.002892725}
+  m_Center: {x: 0.00000011792872, y: 0.002364289, z: 0.00000008731151}
 --- !u!1001 &775750223
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2949,6 +3492,24 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 53557fab08c9bcc46bbf36a95bfba3de, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9908b3b945620c345acf19c34e7e74b0, type: 3}
+--- !u!1 &782535936 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 1262095576}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &782535937
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782535936}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671281, z: 0.0028927242}
+  m_Center: {x: 0.00000011792872, y: 0.0023642885, z: 0.00000008731149}
 --- !u!1001 &786724333
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2959,6 +3520,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302 (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
@@ -3018,6 +3583,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+--- !u!1 &806882906 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 2101204002}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &806882907
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806882906}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671282, z: 0.002892725}
+  m_Center: {x: 0.00000011792872, y: 0.002364289, z: 0.00000008731151}
 --- !u!4 &832595141 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
@@ -3125,15 +3708,32 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 37380588}
-  - {fileID: 1449963865}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &870966617 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 942310494}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &870966618
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870966617}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671281, z: 0.0028927242}
+  m_Center: {x: 0.00000011792872, y: 0.0023642885, z: 0.00000008731149}
 --- !u!1001 &894775538
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3144,6 +3744,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
@@ -3208,6 +3812,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
   m_PrefabInstance: {fileID: 117887520}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &909327175 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 894775538}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &909327176
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909327175}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671281, z: 0.0028927242}
+  m_Center: {x: 0.00000011792872, y: 0.002364289, z: 0.00000008731149}
 --- !u!4 &938411344 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
@@ -3223,6 +3845,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
@@ -3287,6 +3913,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9908b3b945620c345acf19c34e7e74b0, type: 3}
   m_PrefabInstance: {fileID: 688631}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &958493006 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 496207028}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &958493007
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958493006}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671282, z: 0.002892725}
+  m_Center: {x: 0.00000011792872, y: 0.002364289, z: 0.00000008731151}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -3380,6 +4024,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302 (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
@@ -3518,9 +4166,10 @@ GameObject:
   - component: {fileID: 1016852825}
   - component: {fileID: 1016852824}
   - component: {fileID: 1016852828}
+  - component: {fileID: 1016852829}
   m_Layer: 0
   m_Name: bas
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3595,12 +4244,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1016852823}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.873571, y: 0.184, z: 1.436}
+  m_LocalPosition: {x: 2.48, y: 0.1, z: 1.523}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children:
-  - {fileID: 521694708}
+  - {fileID: 637266653}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1016852828
 Rigidbody:
@@ -3613,11 +4262,42 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 4
   m_CollisionDetection: 0
+--- !u!114 &1016852829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016852823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 212bf2aca1f41b547b589472739eeb37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kuyruk: {fileID: 7189233092806750776, guid: da60bddb1af0fd54e9f67ca9f53198e6, type: 3}
+--- !u!1 &1034929932 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 1118551305}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1034929933
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034929932}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671282, z: 0.002892725}
+  m_Center: {x: 0.00000011792872, y: 0.002364289, z: 0.00000008731151}
 --- !u!1001 &1041562197
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3705,6 +4385,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Briks_302 (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
       value: 42
@@ -3763,102 +4447,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
---- !u!1 &1120537853
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1120537857}
-  - component: {fileID: 1120537856}
-  - component: {fileID: 1120537855}
-  - component: {fileID: 1120537854}
-  m_Layer: 0
-  m_Name: zemin
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!64 &1120537854
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1120537853}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &1120537855
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1120537853}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 4167230534a52bb4d9073a435cafff7a, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1120537856
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1120537853}
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1120537857
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1120537853}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4, y: 1, z: 4}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1122182673
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3869,6 +4457,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302 (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
@@ -3928,6 +4520,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+--- !u!1 &1125843510 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 65961829}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1125843511
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125843510}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671282, z: 0.002892725}
+  m_Center: {x: 0.00000011792872, y: 0.002364289, z: 0.00000008731151}
 --- !u!1001 &1131380118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4015,6 +4625,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Briks_302 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -4073,37 +4687,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
---- !u!1 &1167576027
+--- !u!1 &1163303356 stripped
 GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 1122182673}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1163303357
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1167576028}
-  m_Layer: 0
-  m_Name: yem
-  m_TagString: yem
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1167576028
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1167576027}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.754738, y: 0.7420606, z: 3.8274655}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 761701824}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_GameObject: {fileID: 1163303356}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671282, z: 0.002892725}
+  m_Center: {x: 0.00000011792872, y: 0.002364289, z: 0.00000008731151}
 --- !u!4 &1183194147 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9908b3b945620c345acf19c34e7e74b0, type: 3}
@@ -4124,6 +4725,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302 (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
@@ -4188,6 +4793,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
   m_PrefabInstance: {fileID: 1187791410}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1239699477 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 2115844262}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1239699478
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239699477}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671281, z: 0.0028927242}
+  m_Center: {x: 0.00000011792872, y: 0.0023642885, z: 0.00000008731149}
 --- !u!1001 &1262095576
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4198,6 +4821,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
@@ -4390,6 +5017,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Briks_302 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -4459,6 +5090,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Briks_302 (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
       value: 47
@@ -4517,6 +5152,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+--- !u!1 &1276388271 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 1669743388}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1276388272
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276388271}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671281, z: 0.0028927242}
+  m_Center: {x: 0.00000011792872, y: 0.0023642885, z: 0.00000008731149}
 --- !u!4 &1279504483 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9908b3b945620c345acf19c34e7e74b0, type: 3}
@@ -4583,6 +5236,37 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 53557fab08c9bcc46bbf36a95bfba3de, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9908b3b945620c345acf19c34e7e74b0, type: 3}
+--- !u!1 &1282460082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1282460083}
+  m_Layer: 0
+  m_Name: yem
+  m_TagString: yem
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1282460083
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282460082}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.109, y: 0.053, z: 4.055}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 761701824}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1290972767 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
@@ -4645,11 +5329,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da64bb6485883884eaacc07b2eda3ea2, type: 3}
+--- !u!1 &1311800921 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 629289757}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1311800922
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311800921}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671281, z: 0.0028927242}
+  m_Center: {x: 0.00000011792872, y: 0.0023642885, z: 0.00000008731149}
 --- !u!4 &1314873669 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
   m_PrefabInstance: {fileID: 1854689863}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1325873303 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 740737951}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1325873304
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325873303}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671281, z: 0.0028927242}
+  m_Center: {x: 0.00000011792872, y: 0.0023642885, z: 0.00000008731149}
 --- !u!4 &1344605706 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
@@ -4665,6 +5385,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302 (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
@@ -4735,7 +5459,7 @@ GameObject:
   - component: {fileID: 1375847528}
   m_Layer: 0
   m_Name: duvarlar
-  m_TagString: Untagged
+  m_TagString: duvar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4748,7 +5472,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1375847527}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.34, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1006747527}
@@ -4800,8 +5524,157 @@ Transform:
   - {fileID: 1234084574}
   - {fileID: 1344605706}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1378694050 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 133239588}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1378694051
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378694050}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671282, z: 0.002892725}
+  m_Center: {x: 0.00000011792872, y: 0.002364289, z: 0.00000008731151}
+--- !u!1 &1379071026 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 645060383}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1379071027
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379071026}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671281, z: 0.0028927242}
+  m_Center: {x: 0.00000011792872, y: 0.0023642885, z: 0.00000008731149}
+--- !u!1 &1381045573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1381045577}
+  - component: {fileID: 1381045576}
+  - component: {fileID: 1381045575}
+  - component: {fileID: 1381045574}
+  m_Layer: 0
+  m_Name: zemin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1381045574
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381045573}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1381045575
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381045573}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4167230534a52bb4d9073a435cafff7a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1381045576
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381045573}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1381045577
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381045573}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.551, z: 0}
+  m_LocalScale: {x: 100, y: 1, z: 100}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1400064649 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 1187791410}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1400064650
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400064649}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671282, z: 0.002892725}
+  m_Center: {x: 0.00000011792872, y: 0.002364289, z: 0.00000008731151}
 --- !u!4 &1400779677 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
@@ -4817,140 +5690,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9908b3b945620c345acf19c34e7e74b0, type: 3}
   m_PrefabInstance: {fileID: 1264883061}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1449963864
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1449963865}
-  - component: {fileID: 1449963867}
-  - component: {fileID: 1449963866}
-  m_Layer: 5
-  m_Name: skor
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1449963865
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1449963864}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 848538500}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 150, y: -10}
-  m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0, y: 1}
---- !u!114 &1449963866
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1449963864}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: 0
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 1
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 1
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1449963867
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1449963864}
-  m_CullTransparentMesh: 1
 --- !u!1001 &1480284271
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4961,6 +5700,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
@@ -5187,7 +5930,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1515723419
 PrefabInstance:
@@ -5265,6 +6008,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
@@ -5424,6 +6171,24 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &1551379947 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 2077588099}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1551379948
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551379947}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671281, z: 0.0028927242}
+  m_Center: {x: 0.00000011792872, y: 0.002364289, z: 0.00000008731149}
 --- !u!1 &1553258836
 GameObject:
   m_ObjectHideFlags: 0
@@ -5448,7 +6213,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1553258836}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.8116376, y: 3.6671026, z: -3.8088045}
+  m_LocalPosition: {x: 3.26, y: 3.6671026, z: -3.8088045}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 209152177}
@@ -5469,18 +6234,22 @@ Transform:
   - {fileID: 476014026}
   - {fileID: 238634437}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1556954547
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1167576028}
+    m_TransformParent: {fileID: 1282460083}
     m_Modifications:
     - target: {fileID: 1000013678658166, guid: 8fa35cdad352cfa4297d3be64705ecf1, type: 3}
       propertyPath: m_Name
       value: Apple
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013678658166, guid: 8fa35cdad352cfa4297d3be64705ecf1, type: 3}
+      propertyPath: m_TagString
+      value: yem
       objectReference: {fileID: 0}
     - target: {fileID: 4000011667685464, guid: 8fa35cdad352cfa4297d3be64705ecf1, type: 3}
       propertyPath: m_RootOrder
@@ -5500,15 +6269,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011667685464, guid: 8fa35cdad352cfa4297d3be64705ecf1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.37148023
+      value: 0.017218351
       objectReference: {fileID: 0}
     - target: {fileID: 4000011667685464, guid: 8fa35cdad352cfa4297d3be64705ecf1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.74140877
+      value: -0.052348163
       objectReference: {fileID: 0}
     - target: {fileID: 4000011667685464, guid: 8fa35cdad352cfa4297d3be64705ecf1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.2495346
+      value: 0.022000313
       objectReference: {fileID: 0}
     - target: {fileID: 4000011667685464, guid: 8fa35cdad352cfa4297d3be64705ecf1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5604,13 +6373,67 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1571255777 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 1854689863}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1571255778
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571255777}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671282, z: 0.002892725}
+  m_Center: {x: 0.00000011792872, y: 0.002364289, z: 0.00000008731151}
 --- !u!4 &1578103794 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
   m_PrefabInstance: {fileID: 1118551305}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1589564350 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 91362908}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1589564351
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589564350}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671282, z: 0.002892725}
+  m_Center: {x: 0.00000011792872, y: 0.002364289, z: 0.00000008731151}
+--- !u!1 &1605846087 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 1641304741}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1605846088
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605846087}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671282, z: 0.002892725}
+  m_Center: {x: 0.00000011792872, y: 0.002364289, z: 0.00000008731151}
 --- !u!4 &1609140422 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
@@ -5626,6 +6449,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
@@ -5696,6 +6523,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Briks_302 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -5764,6 +6595,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
@@ -5899,6 +6734,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
   m_PrefabInstance: {fileID: 1359020182}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1791310665 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 216627193}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1791310666
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791310665}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671281, z: 0.0028927242}
+  m_Center: {x: 0.00000011792872, y: 0.0023642885, z: 0.00000008731149}
 --- !u!1001 &1854689863
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5909,6 +6762,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
@@ -5968,6 +6825,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+--- !u!1 &1863339720 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 2116388452}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1863339721
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863339720}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671281, z: 0.0028927242}
+  m_Center: {x: 0.00000011792872, y: 0.0023642885, z: 0.00000008731149}
+--- !u!1 &1868194362 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 288662381}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1868194363
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868194362}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671282, z: 0.002892725}
+  m_Center: {x: 0.00000011792872, y: 0.002364289, z: 0.00000008731151}
 --- !u!1 &1904473587
 GameObject:
   m_ObjectHideFlags: 0
@@ -6088,6 +6981,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
@@ -6224,6 +7121,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Briks_302 (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
       value: 33
@@ -6282,6 +7183,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+--- !u!1 &2026663781 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 26043436}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2026663782
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026663781}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671282, z: 0.002892725}
+  m_Center: {x: 0.00000011792872, y: 0.002364289, z: 0.00000008731151}
+--- !u!1 &2044909312 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+  m_PrefabInstance: {fileID: 488543476}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2044909313
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044909312}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0022474108, y: 0.004671281, z: 0.0028927242}
+  m_Center: {x: 0.00000011792872, y: 0.0023642885, z: 0.00000008731149}
 --- !u!1 &2052452464
 GameObject:
   m_ObjectHideFlags: 0
@@ -6314,7 +7251,7 @@ Transform:
   - {fileID: 221993302}
   - {fileID: 1904473588}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 29.381, z: 0}
 --- !u!4 &2069059807 stripped
 Transform:
@@ -6331,6 +7268,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
@@ -6406,6 +7347,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Briks_302 (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
       value: 39
@@ -6480,6 +7425,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Briks_302 (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
       value: 34
@@ -6548,6 +7497,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
@@ -6627,6 +7580,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_Name
       value: Briks_302 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
+      propertyPath: m_TagString
+      value: duvar
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dbbc9964bfa3bcf4191e17f230caf20b, type: 3}
       propertyPath: m_RootOrder
