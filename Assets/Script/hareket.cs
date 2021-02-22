@@ -20,7 +20,7 @@ public class hareket : MonoBehaviour
             GameObject yeni_kuyruk = Instantiate(kuyruk, eski_pozisyon, Quaternion.identity);
             kuyruklar.Add(yeni_kuyruk);
         }
-        if(nesne.gameObject.tag == "kuyruk1" || nesne.gameObject.tag=="duvar")
+        if(nesne.gameObject.tag == "kuyruk" || nesne.gameObject.tag=="duvar")
         {
             SceneManager.LoadScene("Scenes/Level");
         }
