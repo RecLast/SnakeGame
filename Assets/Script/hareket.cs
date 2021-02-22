@@ -11,7 +11,7 @@ public class hareket : MonoBehaviour
     Vector3 eski_pozisyon;
     GameObject cikarilan_kuyruk;
 
-    float hiz = 50.0f;
+    float hiz = 3.0f;
 
     private void OnTriggerEnter(Collider nesne)
     {
@@ -20,7 +20,7 @@ public class hareket : MonoBehaviour
             GameObject yeni_kuyruk = Instantiate(kuyruk, eski_pozisyon, Quaternion.identity);
             kuyruklar.Add(yeni_kuyruk);
         }
-        if(nesne.gameObject.tag =="kuyruk1" || nesne.gameObject.tag=="duvar")
+        if(nesne.gameObject.tag == "kuyruk1" || nesne.gameObject.tag=="duvar")
         {
             SceneManager.LoadScene("Scenes/Level");
         }
@@ -34,12 +34,12 @@ public class hareket : MonoBehaviour
             GameObject yeni_kuyruk = Instantiate(kuyruk, eski_pozisyon, Quaternion.identity);
             kuyruklar.Add(yeni_kuyruk);
         }
-        InvokeRepeating("hareket_et", 0, 0.070f);
+        InvokeRepeating("hareket_et", 0, 0.1f);
     }
 
     void hareket_et()
     {
-        transform.Translate(0, 0, hiz * Time.deltaTime);
+       
         eski_pozisyon = transform.position;
 
 
@@ -51,6 +51,12 @@ public class hareket : MonoBehaviour
             kuyruklar.RemoveAt(0);
             kuyruklar.Add(cikarilan_kuyruk);
         }
+
+    }
+
+    private void FixedUpdate()
+    {
+        transform.Translate(0, 0, hiz * Time.deltaTime);
 
     }
     // Update is called once per frame
