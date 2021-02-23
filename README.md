@@ -1,5 +1,5 @@
 # SnakeGame
-UnityTestProject
+UnityTestProject - Unity Version ; 2020.2.2f1
 
 Türkçe ;
 
