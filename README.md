@@ -1,7 +1,7 @@
 # SnakeGame
 Snake Clone Game - SnakeGame - UnityTestProject - Unity Version ; 2020.2.2f1
 
-![GitHub](https://img.shields.io/github/license/RecLast/SnakeGame?logo=github) ![Discord](https://img.shields.io/discord/293337322508910593?logo=discord&logoColor=fff) ![Twitter](https://img.shields.io/twitter/follow/RecLastTV?style=social) ![Commit](https://img.shields.io/github/last-commit/RecLast/SnakeGame) ![Size](https://img.shields.io/github/repo-size/RecLast/SnakeGame) ![Download](https://img.shields.io/github/downloads/RecLast/SnakeGame/total) ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/RecLast/SnakeGame)
+![GitHub](https://img.shields.io/github/license/RecLast/SnakeGame?logo=github) ![Discord](https://img.shields.io/discord/293337322508910593?logo=discord&logoColor=fff) ![Twitter](https://img.shields.io/twitter/follow/RecLastTV?style=social) ![Commit](https://img.shields.io/github/last-commit/RecLast/SnakeGame) ![Size](https://img.shields.io/github/repo-size/RecLast/SnakeGame) ![GitHub all releases](https://img.shields.io/github/downloads/RecLast/SnakeGame/total?color=green) ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/RecLast/SnakeGame)
 
 ### English
 
